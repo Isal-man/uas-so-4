@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden;
+
+  & .app-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    > * {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      width: 100vw;
+    }
+
+    > .header-wrapper {
+      margin-bottom: 32px;
+    }
+
+    > .content-wrapper {
+      display: flex;
+      padding: 16px;
+    }
+
+    > .footer-wrapper {
+      margin-top: auto;
+      margin-bottom: 0px;
+    }
+
+  }
+
+  & .card {
+    background-color: rgba(235, 235, 235, 1);
+    border-radius: 16px;
+    padding: 16px;
+  }
+}

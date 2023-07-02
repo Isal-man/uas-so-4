@@ -1,0 +1,6 @@
+.footer-wrapper > footer {
+  width: 100vw;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+}
